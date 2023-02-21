@@ -1,6 +1,10 @@
 import React from 'react';
-import { useDispatch, useSelector } from 'react-redux';
+
+//  external imports
 import { Link } from 'react-router-dom';
+import { useDispatch, useSelector } from 'react-redux';
+
+//  internal import
 import { deleteBook } from '../../features/Books/BooksSlice';
 
 const BooksView = () => {

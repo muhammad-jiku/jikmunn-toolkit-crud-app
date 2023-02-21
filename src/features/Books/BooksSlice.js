@@ -1,5 +1,6 @@
-const { createSlice } = require('@reduxjs/toolkit');
+//  external imports
 const { v4: uuidv4 } = require('uuid');
+const { createSlice } = require('@reduxjs/toolkit');
 
 const initialBooks = {
   books: [

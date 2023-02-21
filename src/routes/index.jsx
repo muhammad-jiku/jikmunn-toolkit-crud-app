@@ -1,12 +1,16 @@
 import React from 'react';
+
+//  external imports
 import { Route, Routes } from 'react-router-dom';
-import BooksView from '../components/Books/BooksView';
+
+//  internal imports
+import Home from '../pages/Home';
+import ErrorPage from '../pages/Error';
+import Navbar from '../components/Shared/Navbar';
+import Footer from '../components/Shared/Footer';
 import AddBook from '../components/Books/AddBook';
 import EditBook from '../components/Books/EditBook';
-import Footer from '../components/Shared/Footer';
-import Navbar from '../components/Shared/Navbar';
-import ErrorPage from '../pages/Error';
-import Home from '../pages/Home';
+import BooksView from '../components/Books/BooksView';
 
 const PageIndex = () => {
   return (
