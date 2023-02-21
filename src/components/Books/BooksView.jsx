@@ -7,7 +7,7 @@ const BooksView = () => {
   const books = useSelector((state) => state.booksReducer.books);
   const dispatch = useDispatch();
   const handleDeleteBook = (id) => {
-    dispatch(deleteBook(id));
+    dispatch(deleteBook({ id: id }));
   };
   return (
     <div>
