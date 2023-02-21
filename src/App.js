@@ -4,9 +4,9 @@ import PageIndex from './routes';
 
 function App() {
   return (
-    <>
+    <div className="app">
       <PageIndex />
-    </>
+    </div>
   );
 }
 
