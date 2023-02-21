@@ -1,10 +1,11 @@
 import React from 'react';
+import BooksView from '../components/Books/BooksView';
 
 const Home = () => {
   return (
-    <div>
-      <h1>Home Page</h1>
-    </div>
+    <>
+      <BooksView />
+    </>
   );
 };
 
